@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Arabian Business Ads Blocker",
+  "version": "1.0",
+  "description": "Blocks ads and modifies styles on Arabian Business website.",
+  "permissions": [
+    "activeTab"
+  ],
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.arabianbusiness.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
