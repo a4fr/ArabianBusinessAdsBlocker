@@ -6,7 +6,7 @@ window.addEventListener('load', function() {
 
   let adsElm = document.evaluate("//p[@class='st-inarticle-paragraph']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
   if (adsElm) {
-    tpContainerInner.remove();
+    adsElm.remove();
   }
 
   let evMeterContent = document.evaluate("//div[@class='ev-meter-content']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
