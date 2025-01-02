@@ -1,10 +1,10 @@
-# ArabianBusinessAdsBlocker
+# ArabianBusinessPopupsBlocker
 
 <p align="center">
     <img src="icons/icon128.png" alt="Icon">
 </p>
 
-A Chrome extension to remove ads from news articles on Arabian Business.
+A Chrome extension to remove popups from news articles on Arabian Business.
 
 ## Installation Instructions
 
